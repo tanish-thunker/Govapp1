@@ -4,21 +4,21 @@ import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
-model_widow = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/widowpension.pkcls", "rb"))
-model_disability = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/disabilitypension.pkcls", "rb"))
-model_pmuy = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/pmuy.pkcls", "rb"))
-model_oldage = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/oldage.pkcls", "rb"))
-model_suraksha = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/surakshabima.pkcls", "rb"))
-model_kisansamman = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/kisaansamman.pkcls", "rb"))
-model_krishisinch = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/krishisinch.pkcls", "rb"))
-model_kisancreditcard = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/kisaancreditcard.pkcls", "rb"))
-model_financialassistance = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/financialassistance.pkcls", "rb"))
-model_agriclinic = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/agriclinic.pkcls", "rb"))
-model_brambedkar = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/brambedkar.pkcls", "rb"))
-model_deendayal = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/deendayal.pkcls", "rb"))
-model_pmkvy = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/pmkvy.pkcls", "rb"))
-model_agnipath = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/agnipath.pkcls", "rb"))
-model_pmayg = pickle.load(open("C:/Users/hp/Downloads/Government schemes project/For real/pmayg.pkcls", "rb"))
+model_widow = pickle.load(open("models/widowpension.pkcls", "rb"))
+model_disability = pickle.load(open("models/disabilitypension.pkcls", "rb"))
+model_pmuy = pickle.load(open("models/pmuy.pkcls", "rb"))
+model_oldage = pickle.load(open("models/oldage.pkcls", "rb"))
+model_suraksha = pickle.load(open("models/surakshabima.pkcls", "rb"))
+model_kisansamman = pickle.load(open("models/kisaansamman.pkcls", "rb"))
+model_krishisinch = pickle.load(open("models/krishisinch.pkcls", "rb"))
+model_kisancreditcard = pickle.load(open("models/kisaancreditcard.pkcls", "rb"))
+model_financialassistance = pickle.load(open("models/financialassistance.pkcls", "rb"))
+model_agriclinic = pickle.load(open("models/agriclinic.pkcls", "rb"))
+model_brambedkar = pickle.load(open("models/brambedkar.pkcls", "rb"))
+model_deendayal = pickle.load(open("models/deendayal.pkcls", "rb"))
+model_pmkvy = pickle.load(open("models/pmkvy.pkcls", "rb"))
+model_agnipath = pickle.load(open("models/agnipath.pkcls", "rb"))
+model_pmayg = pickle.load(open("models/pmayg.pkcls", "rb"))
 
 
 def preprocess_gender(gender):
